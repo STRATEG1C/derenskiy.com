@@ -232,6 +232,17 @@ textarea {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
+@media screen and (max-width: 600px) {
+  .preloader__logo {
+    width: 280px;
+    height: 280px; }
+    .preloader__logo-text {
+      font-size: 28px; }
+  .preloader__load {
+    margin-top: 20px; }
+    .preloader__load-area {
+      width: 240px; } }
+
 .header {
   position: fixed;
   top: 0;
